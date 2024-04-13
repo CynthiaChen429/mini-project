@@ -14,7 +14,7 @@ mkdir ckpt
 python main.py --n 3 --checkpoint_dir ckpt
 ```
 
-`n` means the network depth, you can choose from {3, 5, 7, 9}, which means ResNet-{20, 32, 44, 56}.
+`n` means the network depth, you can choose from {3, 5, 7, 9, 18}, which means ResNet-{20, 32, 44, 56, 110}.
 For other options, please refer helps: `python train.py -h`.
 When you run the code for the first time, the dataset will be downloaded automatically.
 
